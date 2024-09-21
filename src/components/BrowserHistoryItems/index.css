@@ -1,0 +1,56 @@
+.each-cart-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.browsed-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .each-cart-item {
+    padding: 10px 20px 10px 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .browsed-item {
+    width: 85%;
+  }
+}
+
+.browsing-times {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+}
+.domain-logo {
+  margin-right: 8px;
+  width: 30px;
+}
+.domain-details {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.domain-name {
+  margin-right: 8px;
+  font-family: 'Roboto';
+}
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
